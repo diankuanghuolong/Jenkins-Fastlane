@@ -26,6 +26,7 @@ xcode-select --install
 二：配置fastlane
  1.cd到你项目文件夹下，执行 fastlane init命令
     如下图：
+    ![展示图片](https://github.com/diankuanghuolong/Jenkins-Fastlane/blob/main/images/1.png)
 
   上图4个选项：
     翻译：
