@@ -26,7 +26,7 @@ xcode-select --install
 二：配置fastlane
  1.cd到你项目文件夹下，执行 fastlane init命令
     如下图：
-    ![展示图片](https://github.com/diankuanghuolong/Jenkins-Fastlane/blob/main/images/1.png)
+    ![展示图片](https://github.com/diankuanghuolong/Jenkins-Fastlane/blob/main/fastlane_images/1.png)
 
   上图4个选项：
     翻译：
@@ -36,6 +36,7 @@ xcode-select --install
     4. 手动设置。
     这里我们选择4，手动配置
 如下图：
+    ![展示图片](https://github.com/diankuanghuolong/Jenkins-Fastlane/blob/main/fastlane_images/2.png)
 
     项目中会多出fastlane 和Gemfile Gemfile.lock三个文件。其中，fastlane中只有Appfile和Fastfile两个文件，后续步骤中会再加。
 2.fastlane 文件解释
@@ -149,7 +150,7 @@ end
    fastlane deliver
 该命令执行后，fastlane下会多出一些文件，
 如图：
-
+ ![展示图片](https://github.com/diankuanghuolong/Jenkins-Fastlane/blob/main/fastlane_images/3.png)
 
 5.配置相关文件信息
     fastlane ios
